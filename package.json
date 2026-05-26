@@ -1,0 +1,35 @@
+{
+  "name": "@dealflowalerts/mcp-server",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for Dealflow Alerts — query deals and alerts from Claude.",
+  "license": "MIT",
+  "author": "Mike Rubini",
+  "homepage": "https://dealflowalerts.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dealflowalerts/mcp-server"
+  },
+  "type": "module",
+  "bin": {
+    "dealflowalerts-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}
