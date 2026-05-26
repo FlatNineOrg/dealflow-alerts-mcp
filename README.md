@@ -29,7 +29,7 @@ Add to `claude_desktop_config.json` (or the equivalent MCP config):
 }
 ```
 
-The token is stored in plaintext on disk — treat the config file like an SSH key.
+The token is stored in plaintext on disk – treat the config file like an SSH key.
 
 ## Tools
 

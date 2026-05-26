@@ -1,7 +1,7 @@
 {
   "name": "@dealflowalerts/mcp-server",
   "version": "0.1.0",
-  "description": "Model Context Protocol server for Dealflow Alerts — query deals and alerts from Claude.",
+  "description": "Model Context Protocol server for Dealflow Alerts – query deals and alerts from Claude.",
   "license": "MIT",
   "author": "Mike Rubini",
   "homepage": "https://dealflowalerts.com",
